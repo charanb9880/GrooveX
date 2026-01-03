@@ -462,12 +462,6 @@ make logs       # View logs
 make test-api   # Run API tests
 ```
 
-## Author and License
-
-**Created by:** SALA ANIL KUMAR
-
-
-***
 
 ## Contributing
 
