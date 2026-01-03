@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-zinc-900 rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 border border-zinc-800;
+  }
+  
+  .btn-primary {
+    @apply bg-green-500 hover:bg-green-400 text-black font-bold py-3 px-8 rounded-full transition-all duration-200 transform hover:scale-105 shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-zinc-800 hover:bg-zinc-700 text-white font-semibold py-3 px-6 rounded-full transition-all duration-200 border border-zinc-700;
+  }
+  
+  .btn-danger {
+    @apply bg-red-600 hover:bg-red-500 text-white font-semibold py-2 px-4 rounded-full transition-all duration-200;
+  }
+  
+  .input-field {
+    @apply mt-1 block w-full bg-zinc-800 border border-zinc-700 rounded-md shadow-sm py-3 px-4 text-white placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200;
+  }
+  
+  .stat-card {
+    @apply bg-gradient-to-br from-zinc-900 to-zinc-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-zinc-700;
+  }
+  
+  .song-item {
+    @apply hover:bg-zinc-800 transition-all duration-200 rounded-md;
+  }
+  
+  .sidebar-item {
+    @apply flex items-center space-x-3 px-4 py-3 rounded-lg text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer;
+  }
+  
+  .sidebar-item.active {
+    @apply bg-zinc-800 text-white;
+  }
+}

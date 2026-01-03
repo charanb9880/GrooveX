@@ -1,0 +1,9 @@
+# Main dependencies (add as you implement more features)
+# None required yet for basic playlist engine
+
+# Testing frameworks
+pytest
+pytest-sugar
+
+# Optional utility libraries (add if used)
+# colorama  # For colored output in Windows terminals if needed
