@@ -465,8 +465,4 @@ make test-api   # Run API tests
 
 ## Contributing
 
-Pull requests and improvements are welcome! This project serves as an educational resource for:
-- Data Structures and Algorithms courses
-- Hackathon preparation
-- System design practice
-- Performance optimization learning
+Pull requests and improvements are welcome! 
